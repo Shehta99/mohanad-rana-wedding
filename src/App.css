@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.nav-link {
+  color: #fff; /* Default text color */
+  transition: color 0.3s ease; /* Smooth transition for the color */
+}
+
+.nav-link:hover {
+  color: #e5c430; /* Color on hover */
+  text-decoration: underline; /* Underline effect on hover */
+}
+
+.select-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 200px; /* Adjust as needed */
+  overflow-y: auto;
+  z-index: 1; /* Adjust z-index if it overlaps other elements */
+}
